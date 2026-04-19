@@ -39,10 +39,19 @@ console.log(invalidOperation)
 let user = null;
 console.log(user);
 let undefinedValue;
-console.error(undefinedValue); 
-let num = 148;
-let strNum = String(num)
-console.log(strNum)
+console.error(undefinedValue);
 let ldkl = null
 let Strldkl = String(ldkl)
-console.log(Strldkl)
+console.log(Strldkl) 
+//это было пятое задание
+let num = 148;
+let strNum = String(num)
+let number = "148"
+let NumNumber = Number(number)
+console.log(strNum)
+console.log(NumNumber)
+//задание 6
+let Name = prompt("Введи свое имя:")
+let age = prompt("Введи свой возраст:")
+console.log("Ваше имя: " + Name)
+console.log("Ваш возраст: " + age)
