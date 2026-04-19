@@ -40,6 +40,8 @@ let user = null;
 console.log(user);
 let undefinedValue;
 console.error(undefinedValue);
+console.error(Number(undefinedValue))
+console.error(String(undefinedValue))
 let ldkl = null
 let Strldkl = String(ldkl)
 console.log(Strldkl) 
